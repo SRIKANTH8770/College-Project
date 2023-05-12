@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Disease Prediction</title>
+        <link rel="stylesheet" href="css/main_index.css">
+        <style>
+            .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/main_index1.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"> 
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <h1 style="color: white; ">HEALTHIFY YOU</h1>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">PREDICTION</a></li>
+                        <li><a href="">MY ACCOUNT</a></li>
+                        <li><a href="">LOGIN</a></li>
+                        <li><a href="">SIGN UP</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
+                 </div> 
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Together we achieve stronger, healthier lives.</h1>
+                <p>Welcome to our website, where your health is our top priority!</p>
+                <form>
+                
+                    <a href="" class="hero-btn">Click Here To Know More</a>
+                  </form>
+            </div>
+           
+        </section>
+
+<!----------Footer----------->
+
+<section class="footer">
+    <h4>Have A Great Day</h4>
+    <p>Stay Healthy</p>
+    <p>Made with ❤️ by Group Name</p>
+
+</section>
+
+
+
+<!--------Java Script for Toggle Menu----------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+    </body>
+</html>
